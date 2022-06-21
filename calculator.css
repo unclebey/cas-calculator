@@ -1,0 +1,48 @@
+.container{
+    margin-top: 10rem;
+    height: auto;
+    width: 25em;
+
+    border: solid whitesmoke 5px ;
+    border-radius: 1rem;
+    justify-items: center;
+    background: white;
+    box-shadow: 5px 5px 30px #070707,
+                -5px -5px 30px #1d1d1d;
+                
+    cursor: alias;
+    margin: auto;
+    
+    
+  
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 5em 5em 5em 5em;
+    row-gap: 1em;
+    margin: 1em;
+    justify-content:center;
+    column-gap: 1em;
+}
+
+#display{
+    border: solid rgb(131, 121, 121) 5px;
+    height: 3em;
+    border-radius: 2em;
+    padding-top: 1em;
+    text-align: right;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.button{
+    width: 4em;
+    height: 2em;
+    border-radius: 1em;
+background-color: rgba(212, 206, 206, 0.808);
+text-align: center;
+margin-top: 0.5em;
+
+}
+
